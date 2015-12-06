@@ -2,7 +2,7 @@
 
 ```shell
 git clone https://github.com/designabyss/basic-boilerplate.git newprojectname
-cd basic-boilerplate
+cd newprojectname
 git remote rm origin
 ```
 
