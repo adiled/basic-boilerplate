@@ -1,0 +1,31 @@
+{
+  "name": "basic-boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/designabyss/basic-boilerplate",
+  "authors": [
+    "Muhammad Adil <dareknyght@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "~2.1.6"
+  },
+  "overrides": {
+    "semantic": {
+      "main":[
+        "dist/semantic.min.js",
+        "dist/semantic.min.css"
+      ]
+    }
+  }
+}
