@@ -6,9 +6,16 @@ cd newprojectname
 git remote rm origin
 ```
 
-## How to build
+## Install dependencies
 
-cd to project directory
+cd to project directory. This would take a while
+
+```shell
+npm install
+bower install
+```
+
+## How to build
 
 ```shell
 gulp bower
